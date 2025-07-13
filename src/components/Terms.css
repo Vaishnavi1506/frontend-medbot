@@ -1,0 +1,50 @@
+/* Terms.css */
+
+.terms-container {
+    max-width: 800px; /* Limit the width of the content */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add some padding */
+    background-color: #f9f9f9; /* Light background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.terms-header {
+    font-size: 28px; /* Header font size */
+    color: #333; /* Darker text color for header */
+    text-align: center; /* Center align header */
+    margin-bottom: 20px; /* Space below header */
+}
+
+.terms-section {
+    margin-bottom: 15px; /* Space between sections */
+}
+
+.terms-title {
+    font-size: 22px; /* Subheader font size */
+    color: #0056b3; /* Primary color for subheaders */
+    margin-bottom: 10px; /* Space below subheader */
+}
+
+.terms-paragraph {
+    font-size: 16px; /* Paragraph font size */
+    line-height: 1.5; /* Line height for readability */
+    margin-bottom: 10px; /* Space between paragraphs */
+    color: #555; /* Slightly lighter text color for paragraphs */
+}
+
+.terms-footer {
+    text-align: center; /* Center align footer text */
+    margin-top: 30px; /* Space above footer */
+    font-size: 14px; /* Footer font size */
+    color: #666; /* Grey text color */
+}
+
+.terms-footer a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.terms-footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}

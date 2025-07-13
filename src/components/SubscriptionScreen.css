@@ -1,0 +1,74 @@
+/* SubscriptionScreen.css */
+.gradient-background {
+    background: linear-gradient(#ffffff, #f7f7f7);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .header {
+    margin-bottom: 40px;
+  }
+  
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    color: #666666;
+  }
+  
+  .plan-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .plan-button {
+    background-color: #e0e0e0;
+    border-radius: 15px;
+    padding: 20px;
+    width: 48%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .plan-button:hover {
+    background-color: #d0d0d0;
+  }
+  
+  .annual-plan {
+    background-color: #cccccc;
+  }
+  
+  .plan-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333333;
+    margin-top: 10px;
+  }
+  
+  .plan-price {
+    font-size: 18px;
+    color: #666666;
+    margin-top: 5px;
+  }
+  
+  .savings-text {
+    color: #4CAF50;
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 16px;
+  }
+  
